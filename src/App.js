@@ -1,7 +1,11 @@
+import {IncrementDecrement} from "./components/IncrementDecrement";
+import {useSelector, useDispatch} from "react-redux";
+
 export const App = () => {
+
     return (
         <>
-            <h1>Hello App</h1>
+            <IncrementDecrement />
         </>
     )
 }
